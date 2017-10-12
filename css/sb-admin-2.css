@@ -404,6 +404,15 @@ table.dataTable thead .sorting:after {
 }
 
 /*CUSTOM CSS*/
+body #page-wrapper{
+  font-size: 18px;
+  position: fixed;
+  width: 84%;
+  height: 100%;
+  overflow: auto;
+  padding: 30px;
+  padding-bottom: 100px;
+}
 #side-menu li a i{
   margin-right: 5px;
 }
@@ -416,6 +425,22 @@ table.dataTable thead .sorting:after {
   margin-top: 0;
 }
 
+img{
+  width: 100%;
+}
+
+ol, ul{
+  padding: 0;
+}
+
+.html-css-overview li{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.environments img{
+  width: 50px;
+}
 
 @media (max-width: 767px) {
   ul.timeline:before {
