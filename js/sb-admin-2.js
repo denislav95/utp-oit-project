@@ -55,7 +55,7 @@ $( document ).ready(function() {
         }
     });
 
-    $(document).on('click', '#side-menu .nav-second-level li a', function () {
+    $(document).on('click', '#side-menu .nav-second-level li a, .navbar-top-links li a', function () {
         var url = $(this).attr('data-url');
 
 
