@@ -1,9 +1,71 @@
-<h1>Introduction to Relational Databases</h1>
+<h1>Why do we need relational databases?</h1>
 <hr />
-<h2>What is a relational database?</h2>
-<h2>Why do we need it?</h2>
-<h2>How does it work?</h2>
-<h2>How do we use it?</h2>
-<h2>When do we use it?</h2>
+<div class="row">
+	<div class="container">
+		<div class="col-md-6">
+			<ul>
+				<li><h3>Storing data is not the problem, managing it however is a tougher task.</h3></li>
+				<li><h3>We need to retrieve stored information quickly.</h3></li>
+				<li><h3>We want to form relationships between our datasets.</h3></li>
+				<li><h3>We want to update our stored information quickly and safely.</h3></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<img src="..\images\db\information-database1.png" />
+		</div>
+	</div>
+</div>
+<hr />
+<h1>What is a relational database?</h1>
+<hr />
+<div class="row">
+	<div class="container">
+		<div class="col-md-12">
+			<ul>
+				<li><h3>A <b>database</b> consists of <b>tables</b>. You can store up to <b>2,147,483,647 tables</b> in a single database.</h3></li>
+			</ul>
+			<img src="..\images\db\table_diagram.png" />
+			<ul>
+				<li><h3>Each <b>table</b> consists of records(<b>rows</b>) and fields(<b>columns</b>).</h3></li>
+				<li><h3>The <b>rows</b> are split into columns, which contain our stored data.</h3></li>
+				<li><h3>Most tables poses a <b>Primary Key(PK)</b>. Tables <b>can not</b> contain duplicate Primary Keys.</h3></li>
+				<li><h3>Tables can also poses a <b>Foreign Key(FK)</b>. <b>Foreign Keys(FK)</b> are used to create <b>relationships</b> between tables.<h3/></li>
+				<img src="..\images\db\relationship.jpg" />
+				<li><h3>There are three kinds of relationships between tables - <b>one-to-one</b>, <b>one-to-many</b> and <b>many-to-many</b>.</h3></li>
+				<img src="..\images\db\relationships.png" />
+				<li><h3>In a <b>one-to-one</b> relationship a row from table "A" can be linked to exactly one row from table "B", and a row from database "B" can be linked with exactly one row from table "A".</li></h3>
+				<img src="..\images\db\one-to-one.gif" />
+				<li><h3>In a <b>one-to-many</b> relationship a row from table "A" can be linked with an arbitrary amount of rows from table "B", but a row from table "B" can not be linked with more than one row from table "A".</li></h3>
+				<img src="..\images\db\one-to-many.gif" />
+				<li><h3>In a <b>many-to-many</b> relationship a row from table "A" can be linked with an arbitrary amount of rows from table "B" and vice versa.
+				<img src="..\images\db\many-to-many.gif" />
+				<li><h3>In order to represent the <b>relationships</b> between tables in a database, we use <b>UML</b> diagrams.</h3></li>
+				<img src="..\images\db\uml.png" />
+		</div>
+	</div>
+</div>
+<hr />
+<h1>How do we use a relational database?</h1>
+<hr />
+<div class="row">
+	<div class="container">
+		<div class="col-md-12">
+			<ul>
+				<li><h3>In order to use a relational database, we need a <b>R</b>elational <b>D</b>atabase <b>M</b>anagement <b>S</b>ystem. <b>RDBMS</b></h3></li>
+				<br />
+				<img src="..\images\db\dbms.png" />
+				<li><h3>The <b>RDBMS</b> is a specialized software solution for manipulating data in a relational database.</h3></li>
+				<li><h3>Some of the most popular RDBMS are Oracle, MySQL, MS SQL Server and PostgreSQL.</h3></li>
+				<img src="..\images\db\popular_rdbms.png" />
+				<li><h3>In order to manipulate the data stored in our database, we give the <b>RDBMS</b> instructions using a special declarative programming language named <b>SEQUEL(SQL)</b>.</h3></li>
+				<br />
+				<img src="..\images\db\sql.png" />
+				<li><h3>By using <b>SQL</b> we can create, retrieve, update and delete data from our relational database. This set of operations is known as <b>CRUD</b>.
+				<br />
+				
+		</div>
+	</div>
+</div>
+<hr />
  
 
