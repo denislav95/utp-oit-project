@@ -7,8 +7,6 @@ var rename = require("gulp-rename");
 var uglify = require("gulp-uglify");
 var pkg = require("./package.json");
 
-console.log("test");
-
 // Set the banner content
 var banner = [
   "/*!\n",
