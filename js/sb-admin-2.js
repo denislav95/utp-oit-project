@@ -1,3 +1,6 @@
+console.log('test')
+
+
 $(function() {
     $('#side-menu').metisMenu();
 });
